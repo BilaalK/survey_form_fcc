@@ -1,0 +1,49 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="css/survey.css">
+    <head>
+        <title>Survey Form</title>
+    </head>
+
+
+
+    <body>
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+        <div id="div1">
+            <h1 id="title">Restaurant Survey</h1>
+            <p id="description">Please fill the form below to help us learn about your satisfaction.</p>
+
+        
+            <form id="survey-form">
+                <label id="name-label" for="name">Full name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Thomas Edward Yorke" required><br><br>
+                <label id="email-label" for="email">Email address:</label><br>
+                <input type="email" id="email" name="email" placeholder="abcd@gmail.com" required><br><br>
+                <label id="number-label" for="number">Phone number:</label><br>
+                <input type="number" id="number" name="number" placeholder="087885960043" min="12" max="12" required><br><br>
+
+                <label for="best-food">Select best food:</label>
+                <select name="best-food" id="dropdown">
+                    <option value="Fried Shrimp">Fried Shrimp</option>
+                    <option value="Wagyu Steak">Wagyu Steak</option>
+                    <option value="Mashed Potato">Mashed Potato</option>
+                    <option value="Salad">Salad</option>
+                </select><br><br>
+
+                    <label for="fav-drink">Select best drink:</label><br>
+                    <input type="radio" name="fav-drink" value="inacolada"><br>
+                    <input type="radio" name="fav-drink" value="iced-tea"><br>
+                    <input type="radio" name="fav-drink" value="mineral-water"><br>      
+                
+                    <label for="fav-dessert">Select what you just ordered:</label><br>
+                    <input type="checkbox" name="fav-dessert" value="inacolada"><br>
+                    <input type="checkbox" name="fav-dessert" value="iced-tea"><br>
+                    <input type="checkbox" name="fav-dessert" value="mineral-water"><br><br>
+
+                    <textarea placeholder="Other suggestions:" id="textarea"></textarea><br><br>
+
+                    <input type="submit" id="submitl">
+            </form>
+        </div>  
+    </body>
+

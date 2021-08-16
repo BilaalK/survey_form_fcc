@@ -1,0 +1,31 @@
+html{
+    background-image: url(https://thumbs.gfycat.com/WeightyDopeyCats-size_restricted.gif);
+    font-size: 3vmin;
+}
+
+h1, p{
+    color: white;    
+}
+
+input{
+    width: 40%;
+    /* color: white; */
+    font-size: 1rem;
+}
+
+#div1{
+    text-align: center;
+    margin: 11vmin;
+    padding-bottom: 1vh;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    text-shadow: white;
+}
+
+#best-drink{
+    text-align: center;
+}
+
+label{
+    color: white;
+    font-size: 1rem;
+}
