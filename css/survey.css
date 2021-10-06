@@ -1,19 +1,16 @@
-html{
+html {
     background-image: url(https://thumbs.gfycat.com/WeightyDopeyCats-size_restricted.gif);
+    color: white;  
     font-size: 3vmin;
 }
 
-h1, p{
-    color: white;    
-}
-
-input{
-    width: 40%;
+input {
+    /* width: 40%; */
     /* color: white; */
     font-size: 1rem;
 }
 
-#div1{
+#div1 {
     text-align: center;
     margin: 11vmin;
     padding-bottom: 1vh;
@@ -21,11 +18,15 @@ input{
     text-shadow: white;
 }
 
-#best-drink{
+#best-drink {
     text-align: center;
 }
 
-label{
+label {
     color: white;
     font-size: 1rem;
+}
+
+#number {
+    width: 180px;
 }
